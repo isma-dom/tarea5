@@ -1,0 +1,249 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1220px;
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+}
+
+hr{
+  padding-top: 10px;
+  background-color: #ff3281;
+}
+
+
+.color_rosa{
+  color: #ff3281;
+}
+
+.centrar{
+  text-align: center;
+  margin: auto;
+  width: 1220px;
+}
+
+.fondo_crema{
+  background-color: #fff9f1;
+  padding-bottom: 30px;
+}
+
+.imagen_cabecera{
+  vertical-align: top;
+  width: 200px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.imagen_cabecera img{
+  width: 100px;
+}
+
+.contenedor_redes_cabecera{
+  width: 900px;
+  display: inline-block;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.contenedor_redes_cabecera img{
+  width: 40px;
+  margin-left: 20px;
+}
+
+.contenedor_anclas_cabecera{
+  border: 4px solid black;
+  margin-top: 10px;
+  width: 1100px;
+  
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contenedor_anclas_cabecera a{
+  margin-right: 130px;
+  text-decoration: none;
+  color: black;
+}
+
+.contenedor_anclas_cabecera a:hover{
+  border-bottom: 2px solid #ff3281;
+}
+
+.contenedor_anclas_cabecera a:first-child{
+  margin-left: 100px;
+}
+
+.contenedor_anclas_cabecera a:last-child{
+  margin-left: 100px;
+}
+
+.contenedor_imagen_fondo{
+  background-image: url(imagenes/fondopiedras.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  color: white;
+  padding-top: 80px;
+  background-size: cover;
+}
+
+.contenedor_anclas_imagen{
+  margin-top: 50px;
+}
+.contenedor_anclas_imagen a:first-child{
+  background-color: #ff3281;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: 30px;
+  text-decoration: none;
+  border: 3px solid #ff3281;
+  border-radius: 7px;
+}
+
+.contenedor_anclas_imagen a:last-child{
+  border: 3px solid #ff3281;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: 30px;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+.margen_abajo{
+  margin-bottom: 50px;
+}
+
+.margen_arriba{
+  margin-top: 50px;
+}
+
+.espacio_arriba{
+  padding-top: 40px;
+}
+
+.contenedor_productos{
+  display: inline-block;
+  width: 450px;
+  margin-right: 60px;
+  margin-left: 50px;
+}
+
+.contenedor_velas{
+  width: 400px;
+  display: inline-block;
+  vertical-align:top ;
+}
+
+.contenedor_talento h2{
+  text-align: center;
+}
+.contenedor_aromatizante{
+  width: 500px;
+  margin-right: 60px;
+  margin-left: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contenedor_aromatizante img{
+  width: 500px;
+}
+
+.contenedor_trabajo{
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+}
+
+.contenedor_trabajo h3,p{
+  margin-bottom: 20px;
+}
+
+.contenedor_formulario{
+  width: 500px;
+  margin-right: 60px;
+  margin-left: 50px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+}
+
+.contenedor_video_instalaciones{
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+  
+}
+
+.formulario{
+  border: 2px solid #ff3281;
+  padding-top: 10px;
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.texto_lugar{
+  margin-top: 15px;
+}
+
+.dar_correo{
+  width: 300px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.boton_dar_correo{
+  margin-top: 15px;
+  display: block;
+  width: 130px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.video_spa{
+  margin-top: 18px;
+}
+
+.contenedor_footer{
+  background-color: #fff9f1;
+}
+
+.logo_footer{
+  display: inline-block;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.logo_footer img{
+  width: 100px;
+}
+
+.info_alumno{
+  display: inline-block;
+  vertical-align: top;
+  width: 800px;
+  text-align: right;
+}
